@@ -12,6 +12,24 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <style>
+        .welcome-box{
+            width: 100%;
+            position: relative;
+        }
+        .welcome-box img{
+            width: 100%;
+            height: 600px;
+        }
+        .welcome-box h2{
+            margin: 0;
+            height: 80px;
+            width: 100%;
+            color: red;
+            text-align: center;
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
 <div class="container" style="height: auto">
@@ -19,25 +37,7 @@
         <header class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-12">
                 <img src="img/logo-370x235.png" height="135" width="270"/>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav col-3">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Menu
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Pho</a>
-                                <a class="dropdown-item" href="#">Com</a>
-                                <div class="dropdown-divider">Bun</div>
-                                <a class="dropdown-item" href="#">Do An Vat</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
+
             </nav>
 
             <!--Lam lam lam lma-->
@@ -115,6 +115,10 @@
            <div class="">
                <div class="panel "></div>
            </div>
+        </div>
+        <div class="welcome-box">
+            <h2>Welcome to Justice restaurant</h2>
+            <img src="img/background3.jpeg">
         </div>
         <footer class="panel panel-default">
             <div class="panel-heading text-center">
